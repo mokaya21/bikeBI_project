@@ -14,10 +14,10 @@ The dataset captures transactional data from Elite bike-sharing program, providi
 - hour: The specific hour of the day when the ride took place.
 - month: The month of the year.
 - working day: A binary indicator of whether the ride occurred on a working day (1) or not (0).
-- rider type: The category of the rider (e.g., casual, registered).
+- rider type: The rider category (e.g., casual, registered).
 - riders: The count of riders for a given transaction.
 - price: The price charged to hire a bike.
-- COGS: The costs incurred for acquistion and maintenance of the bikes.
+- COGS: The costs incurred for the acquisition and maintenance of the bikes.
  
 We added new attributes for easier analysis and creating visuals to see patterns in the dataset:
   
@@ -57,7 +57,8 @@ This dataset spans two years, from 2021 to 2022.
 
 - Designed an intuitive layout in Power BI with charts, tables, and KPIs.
 - Emphasized accessibility by using colour-coded visuals and clear legends.
-  
+
+![dashboard](https://github.com/mokaya21/bike_share_BI_project/blob/7635985f4319c0c59391b771486d748ff7c6bd79/elite%20bike%20shop.pdf)
 
 ## Insights
 - Demand increased by 65% in 2022 despite a price increase of 25%
