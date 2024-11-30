@@ -1,3 +1,5 @@
+# cte to display financial performance over the 2 years
+	
 WITH cte AS (
 SELECT *
 FROM bike_share_yr_0
@@ -20,4 +22,4 @@ riders*price-COGS AS profit
 
 FROM cte a
 	LEFT JOIN 
-cost_table b ON a.yr = b.yr
+cost_table b ON a.yr = b.yr;
